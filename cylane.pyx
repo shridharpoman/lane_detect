@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import cv2
 import os, glob
 import numpy as np
-os.environ["FFMPEG_BINARY"] = "/home/kpit/anaconda3/bin/ffmpeg"
+os.environ["FFMPEG_BINARY"] = "/usr/bin/ffmpeg"
 from moviepy.editor import VideoFileClip
 
 
